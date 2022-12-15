@@ -17,7 +17,7 @@ export const SETTINGS = {
 export function initializeSettings(){
     game.settings.register(SETTINGS.MODULE_ID, SETTINGS.PROXY_URL, {
         name: 'Cobalt Proxy Url',
-        hint: 'Url of the locally running companion app.',
+        hint: 'Url of the locally running companion app. (See instructions on github)',
         scope: 'client',
         config: true,
         type: String,
