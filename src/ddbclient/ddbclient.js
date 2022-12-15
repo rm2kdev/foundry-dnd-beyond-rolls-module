@@ -53,14 +53,6 @@ function connectSocket(socketToken) {
         };
 
         socket.onclose = function(event) {
-            console.log("DDB DISCONNECTED")
-            console.log("DDB DISCONNECTED1")
-            console.log("DDB DISCONNECTED2")
-            console.log("DDB DISCONNECTED3")
-            console.log("DDB DISCONNECTED4")
-            console.log("DDB DISCONNECTED5")
-            console.log("DDB DISCONNECTED6")
-            console.log("DDB DISCONNECTED7")
             ui.notifications.warn(SETTINGS.MODULE_NAME + ' - Connection to D&D Beyond Lost, wait 5 seconds, reconnect');
             setTimeout(function(){
                 getSocketAndConnect();
