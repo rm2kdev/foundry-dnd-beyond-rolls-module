@@ -10,9 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # build the latest version
-      - name: Use NPM To Run webpack and build dist folder
-      - run: npm build
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+      - run: npm run build
 
       # get part of the tag after the `v`
       - name: Extract tag version number
