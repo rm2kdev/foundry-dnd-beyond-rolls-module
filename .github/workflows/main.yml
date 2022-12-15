@@ -10,6 +10,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      # build the latest version
+      - name: Use NPM To Run webpack and build dist folder
+      - run: npm build
+
       # get part of the tag after the `v`
       - name: Extract tag version number
         id: get_version
