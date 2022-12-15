@@ -4,8 +4,11 @@ Hello! Welcome! this is a module to connect D&D Beyond rolls into Foundry VTT an
 
 ---
 :white_check_mark: No browser extensions, plugins or iFrames needed
+
 :white_check_mark: Works with D&D Beyond Mobile apps and Webpages
+
 :white_check_mark: Works with D&D Beyond Encounters
+
 :white_check_mark: Roll Every Stat, Save, Weapon and Spell
 
 
