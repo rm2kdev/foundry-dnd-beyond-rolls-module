@@ -1,0 +1,20 @@
+{
+  "name": "d&d-beyond-rolls",
+  "version": "1.0.0",
+  "author": "rm2kdev",
+  "description": "Show rolls from dnd beyond campaigns in your game",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "javascript-obfuscator": "^4.0.0",
+    "terser": "",
+    "terser-webpack-plugin": "",
+    "webpack": "",
+    "webpack-cli": "",
+    "webpack-obfuscator": "^3.5.1"
+  }
+}
